@@ -10,6 +10,7 @@
 #import "CollectingDelegate.h"
 #import <XCTest/XCTest.h>
 #import <CommonCrypto/CommonDigest.h>
+#import "unzip.h"
 
 @interface CancelDelegate : NSObject <ZipArchiveDelegate>
 
