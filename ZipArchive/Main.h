@@ -9,8 +9,10 @@
 #ifndef _ZIPARCHIVE_H
 #define _ZIPARCHIVE_H
 
+typedef struct unz_file_info_s unz_file_info;
+typedef struct unz_global_info_s unz_global_info;
+
 #import <Foundation/Foundation.h>
-#include "unzip.h"
 
 @protocol ZipArchiveDelegate;
 

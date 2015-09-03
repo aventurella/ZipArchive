@@ -10,6 +10,7 @@
 #import "zip.h"
 #import "zlib.h"
 #import "zconf.h"
+#include "unzip.h"
 #include <sys/stat.h>
 
 #define CHUNK 16384
