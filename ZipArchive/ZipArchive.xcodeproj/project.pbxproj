@@ -12,15 +12,10 @@
 		2320809C1B9B36C1006DABB6 /* ZipArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2320809B1B9B36C1006DABB6 /* ZipArchiveTests.m */; };
 		232080A71B9B36EC006DABB6 /* Archive.h in Headers */ = {isa = PBXBuildFile; fileRef = 232080A51B9B36EC006DABB6 /* Archive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		232080A81B9B36EC006DABB6 /* Archive.m in Sources */ = {isa = PBXBuildFile; fileRef = 232080A61B9B36EC006DABB6 /* Archive.m */; };
-		232080B31B9B3772006DABB6 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 232080AA1B9B3772006DABB6 /* crypt.h */; };
 		232080B41B9B3772006DABB6 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 232080AB1B9B3772006DABB6 /* ioapi.c */; };
-		232080B51B9B3772006DABB6 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 232080AC1B9B3772006DABB6 /* ioapi.h */; };
 		232080B61B9B3772006DABB6 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 232080AD1B9B3772006DABB6 /* mztools.c */; };
-		232080B71B9B3772006DABB6 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 232080AE1B9B3772006DABB6 /* mztools.h */; };
 		232080B81B9B3772006DABB6 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 232080AF1B9B3772006DABB6 /* unzip.c */; };
-		232080B91B9B3772006DABB6 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 232080B01B9B3772006DABB6 /* unzip.h */; };
 		232080BA1B9B3772006DABB6 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 232080B11B9B3772006DABB6 /* zip.c */; };
-		232080BB1B9B3772006DABB6 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 232080B21B9B3772006DABB6 /* zip.h */; };
 		232080BD1B9B37E1006DABB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232080BC1B9B37E1006DABB6 /* Foundation.framework */; };
 		232080BF1B9B37E8006DABB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232080BE1B9B37E8006DABB6 /* CoreGraphics.framework */; };
 		232080C11B9B37F0006DABB6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 232080C01B9B37F0006DABB6 /* libz.dylib */; };
@@ -170,13 +165,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232080B31B9B3772006DABB6 /* crypt.h in Headers */,
-				232080BB1B9B3772006DABB6 /* zip.h in Headers */,
 				2320808F1B9B36C1006DABB6 /* ZipArchive.h in Headers */,
 				232080A71B9B36EC006DABB6 /* Archive.h in Headers */,
-				232080B91B9B3772006DABB6 /* unzip.h in Headers */,
-				232080B51B9B3772006DABB6 /* ioapi.h in Headers */,
-				232080B71B9B3772006DABB6 /* mztools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/minizip";
 			};
 			name = Debug;
 		};
@@ -424,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/minizip";
 			};
 			name = Release;
 		};
