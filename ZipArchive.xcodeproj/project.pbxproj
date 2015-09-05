@@ -303,9 +303,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A5D15CBC1B51A38C00929105 /* ZipArchive */ = {
+		A5D15CBC1B51A38C00929105 /* ZipArchive iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5D15CD31B51A38C00929105 /* Build configuration list for PBXNativeTarget "ZipArchive" */;
+			buildConfigurationList = A5D15CD31B51A38C00929105 /* Build configuration list for PBXNativeTarget "ZipArchive iOS" */;
 			buildPhases = (
 				A5D15CB81B51A38C00929105 /* Sources */,
 				A5D15CB91B51A38C00929105 /* Frameworks */,
@@ -316,7 +316,7 @@
 			);
 			dependencies = (
 			);
-			name = ZipArchive;
+			name = "ZipArchive iOS";
 			productName = ZipArchive;
 			productReference = A5D15CBD1B51A38C00929105 /* ZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
@@ -389,7 +389,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5D15CBC1B51A38C00929105 /* ZipArchive */,
+				A5D15CBC1B51A38C00929105 /* ZipArchive iOS */,
 				A5D15CC71B51A38C00929105 /* ZipArchiveTests */,
 				A5D15CDC1B51A3A400929105 /* Example */,
 			);
@@ -477,7 +477,7 @@
 /* Begin PBXTargetDependency section */
 		A5D15CCB1B51A38C00929105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5D15CBC1B51A38C00929105 /* ZipArchive */;
+			target = A5D15CBC1B51A38C00929105 /* ZipArchive iOS */;
 			targetProxy = A5D15CCA1B51A38C00929105 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -603,7 +603,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ZipArchive;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -621,7 +621,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ZipArchive;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -694,7 +694,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5D15CD31B51A38C00929105 /* Build configuration list for PBXNativeTarget "ZipArchive" */ = {
+		A5D15CD31B51A38C00929105 /* Build configuration list for PBXNativeTarget "ZipArchive iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5D15CD41B51A38C00929105 /* Debug */,
