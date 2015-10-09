@@ -23,6 +23,8 @@
 	<key>NSPrincipalClass</key>
 	<string></string>
 	<key>CFBundleSupportedPlatforms</key>
-	<string>iPhoneOS</string>
+  <array>
+    <string>iPhoneOS</string>
+  </array>
 </dict>
 </plist>
