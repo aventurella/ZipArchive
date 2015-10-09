@@ -83,7 +83,7 @@
 		232080C01B9B37F0006DABB6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		232080FF1B9B5DC5006DABB6 /* ZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		232081021B9B5DC5006DABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "ZipArchive Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
-		232081091B9B5DC5006DABB6 /* ZipArchive MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZipArchive MacTests.xctest"; path = "ZipArchiveTests Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232081091B9B5DC5006DABB6 /* ZipArchiveTests Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZipArchiveTests Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2320810F1B9B5DC5006DABB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../ZipArchive MacTests/Info.plist"; sourceTree = "<group>"; };
 		232081101B9B5DC5006DABB6 /* ZipArchive_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZipArchive_MacTests.m; path = "../ZipArchive MacTests/ZipArchive_MacTests.m"; sourceTree = "<group>"; };
 		2320811A1B9B5E23006DABB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -147,7 +147,7 @@
 				232080891B9B36C1006DABB6 /* ZipArchive.framework */,
 				232080941B9B36C1006DABB6 /* ZipArchiveTests_iOS.xctest */,
 				232080FF1B9B5DC5006DABB6 /* ZipArchive.framework */,
-				232081091B9B5DC5006DABB6 /* ZipArchive MacTests.xctest */,
+				232081091B9B5DC5006DABB6 /* ZipArchiveTests Mac.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -356,7 +356,7 @@
 			);
 			name = "ZipArchiveTests Mac";
 			productName = "ZipArchive MacTests";
-			productReference = 232081091B9B5DC5006DABB6 /* ZipArchive MacTests.xctest */;
+			productReference = 232081091B9B5DC5006DABB6 /* ZipArchiveTests Mac.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
