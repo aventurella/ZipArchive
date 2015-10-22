@@ -41,6 +41,40 @@
 		2320812C1B9B5EAB006DABB6 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 232080AF1B9B3772006DABB6 /* unzip.c */; };
 		2320812D1B9B5EAB006DABB6 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 232080B11B9B3772006DABB6 /* zip.c */; };
 		232081341B9B616A006DABB6 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 2320808E1B9B36C1006DABB6 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238945E31BD9074500A5F8C6 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945CE1BD9074500A5F8C6 /* Common.xcconfig */; };
+		238945E41BD9074500A5F8C6 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945CE1BD9074500A5F8C6 /* Common.xcconfig */; };
+		238945E51BD9074500A5F8C6 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D01BD9074500A5F8C6 /* Debug.xcconfig */; };
+		238945E61BD9074500A5F8C6 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D01BD9074500A5F8C6 /* Debug.xcconfig */; };
+		238945E71BD9074500A5F8C6 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D11BD9074500A5F8C6 /* Profile.xcconfig */; };
+		238945E81BD9074500A5F8C6 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D11BD9074500A5F8C6 /* Profile.xcconfig */; };
+		238945E91BD9074500A5F8C6 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D21BD9074500A5F8C6 /* Release.xcconfig */; };
+		238945EA1BD9074500A5F8C6 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D21BD9074500A5F8C6 /* Release.xcconfig */; };
+		238945EB1BD9074500A5F8C6 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D31BD9074500A5F8C6 /* Test.xcconfig */; };
+		238945EC1BD9074500A5F8C6 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D31BD9074500A5F8C6 /* Test.xcconfig */; };
+		238945ED1BD9074500A5F8C6 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D51BD9074500A5F8C6 /* Application.xcconfig */; };
+		238945EE1BD9074500A5F8C6 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D51BD9074500A5F8C6 /* Application.xcconfig */; };
+		238945EF1BD9074500A5F8C6 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D61BD9074500A5F8C6 /* Framework.xcconfig */; };
+		238945F01BD9074500A5F8C6 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D61BD9074500A5F8C6 /* Framework.xcconfig */; };
+		238945F11BD9074500A5F8C6 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D71BD9074500A5F8C6 /* StaticLibrary.xcconfig */; };
+		238945F21BD9074500A5F8C6 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D71BD9074500A5F8C6 /* StaticLibrary.xcconfig */; };
+		238945F31BD9074500A5F8C6 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D91BD9074500A5F8C6 /* iOS-Application.xcconfig */; };
+		238945F41BD9074500A5F8C6 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D91BD9074500A5F8C6 /* iOS-Application.xcconfig */; };
+		238945F51BD9074500A5F8C6 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DA1BD9074500A5F8C6 /* iOS-Base.xcconfig */; };
+		238945F61BD9074500A5F8C6 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DA1BD9074500A5F8C6 /* iOS-Base.xcconfig */; };
+		238945F71BD9074500A5F8C6 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DB1BD9074500A5F8C6 /* iOS-Framework.xcconfig */; };
+		238945F81BD9074500A5F8C6 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DB1BD9074500A5F8C6 /* iOS-Framework.xcconfig */; };
+		238945F91BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DC1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig */; };
+		238945FA1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DC1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig */; };
+		238945FB1BD9074500A5F8C6 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DE1BD9074500A5F8C6 /* Mac-Application.xcconfig */; };
+		238945FC1BD9074500A5F8C6 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DE1BD9074500A5F8C6 /* Mac-Application.xcconfig */; };
+		238945FD1BD9074500A5F8C6 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DF1BD9074500A5F8C6 /* Mac-Base.xcconfig */; };
+		238945FE1BD9074500A5F8C6 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DF1BD9074500A5F8C6 /* Mac-Base.xcconfig */; };
+		238945FF1BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E01BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig */; };
+		238946001BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E01BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig */; };
+		238946011BD9074500A5F8C6 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E11BD9074500A5F8C6 /* Mac-Framework.xcconfig */; };
+		238946021BD9074500A5F8C6 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E11BD9074500A5F8C6 /* Mac-Framework.xcconfig */; };
+		238946031BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E21BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig */; };
+		238946041BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E21BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +123,23 @@
 		2320811A1B9B5E23006DABB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2320811C1B9B5E2A006DABB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		2320811E1B9B5E30006DABB6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		238945CE1BD9074500A5F8C6 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		238945D01BD9074500A5F8C6 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		238945D11BD9074500A5F8C6 /* Profile.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		238945D21BD9074500A5F8C6 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		238945D31BD9074500A5F8C6 /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		238945D51BD9074500A5F8C6 /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		238945D61BD9074500A5F8C6 /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		238945D71BD9074500A5F8C6 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		238945D91BD9074500A5F8C6 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		238945DA1BD9074500A5F8C6 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		238945DB1BD9074500A5F8C6 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		238945DC1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		238945DE1BD9074500A5F8C6 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		238945DF1BD9074500A5F8C6 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		238945E01BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		238945E11BD9074500A5F8C6 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		238945E21BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +185,7 @@
 		2320807F1B9B36C1006DABB6 = {
 			isa = PBXGroup;
 			children = (
+				238945CC1BD9073600A5F8C6 /* Configs */,
 				232080C21B9B384F006DABB6 /* Frameworks */,
 				2320808B1B9B36C1006DABB6 /* ZipArchive */,
 				232080981B9B36C1006DABB6 /* ZipArchiveTests */,
@@ -251,6 +303,70 @@
 				2320809B1B9B36C1006DABB6 /* ZipArchiveTests.m */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		238945CC1BD9073600A5F8C6 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				238945CD1BD9074500A5F8C6 /* Base */,
+				238945D81BD9074500A5F8C6 /* iOS */,
+				238945DD1BD9074500A5F8C6 /* Mac OS X */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		238945CD1BD9074500A5F8C6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				238945CE1BD9074500A5F8C6 /* Common.xcconfig */,
+				238945CF1BD9074500A5F8C6 /* Configurations */,
+				238945D41BD9074500A5F8C6 /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		238945CF1BD9074500A5F8C6 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				238945D01BD9074500A5F8C6 /* Debug.xcconfig */,
+				238945D11BD9074500A5F8C6 /* Profile.xcconfig */,
+				238945D21BD9074500A5F8C6 /* Release.xcconfig */,
+				238945D31BD9074500A5F8C6 /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		238945D41BD9074500A5F8C6 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				238945D51BD9074500A5F8C6 /* Application.xcconfig */,
+				238945D61BD9074500A5F8C6 /* Framework.xcconfig */,
+				238945D71BD9074500A5F8C6 /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		238945D81BD9074500A5F8C6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				238945D91BD9074500A5F8C6 /* iOS-Application.xcconfig */,
+				238945DA1BD9074500A5F8C6 /* iOS-Base.xcconfig */,
+				238945DB1BD9074500A5F8C6 /* iOS-Framework.xcconfig */,
+				238945DC1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		238945DD1BD9074500A5F8C6 /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				238945DE1BD9074500A5F8C6 /* Mac-Application.xcconfig */,
+				238945DF1BD9074500A5F8C6 /* Mac-Base.xcconfig */,
+				238945E01BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig */,
+				238945E11BD9074500A5F8C6 /* Mac-Framework.xcconfig */,
+				238945E21BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +523,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238945E91BD9074500A5F8C6 /* Release.xcconfig in Resources */,
+				238946011BD9074500A5F8C6 /* Mac-Framework.xcconfig in Resources */,
+				238945E71BD9074500A5F8C6 /* Profile.xcconfig in Resources */,
+				238945F91BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig in Resources */,
+				238945F11BD9074500A5F8C6 /* StaticLibrary.xcconfig in Resources */,
+				238945F51BD9074500A5F8C6 /* iOS-Base.xcconfig in Resources */,
+				238945E51BD9074500A5F8C6 /* Debug.xcconfig in Resources */,
+				238945E31BD9074500A5F8C6 /* Common.xcconfig in Resources */,
+				238945EF1BD9074500A5F8C6 /* Framework.xcconfig in Resources */,
+				238945FB1BD9074500A5F8C6 /* Mac-Application.xcconfig in Resources */,
+				238945FD1BD9074500A5F8C6 /* Mac-Base.xcconfig in Resources */,
+				238945EB1BD9074500A5F8C6 /* Test.xcconfig in Resources */,
+				238946031BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig in Resources */,
+				238945ED1BD9074500A5F8C6 /* Application.xcconfig in Resources */,
+				238945FF1BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig in Resources */,
+				238945F71BD9074500A5F8C6 /* iOS-Framework.xcconfig in Resources */,
+				238945F31BD9074500A5F8C6 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +554,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238945EA1BD9074500A5F8C6 /* Release.xcconfig in Resources */,
+				238946021BD9074500A5F8C6 /* Mac-Framework.xcconfig in Resources */,
+				238945E81BD9074500A5F8C6 /* Profile.xcconfig in Resources */,
+				238945FA1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig in Resources */,
+				238945F21BD9074500A5F8C6 /* StaticLibrary.xcconfig in Resources */,
+				238945F61BD9074500A5F8C6 /* iOS-Base.xcconfig in Resources */,
+				238945E61BD9074500A5F8C6 /* Debug.xcconfig in Resources */,
+				238945E41BD9074500A5F8C6 /* Common.xcconfig in Resources */,
+				238945F01BD9074500A5F8C6 /* Framework.xcconfig in Resources */,
+				238945FC1BD9074500A5F8C6 /* Mac-Application.xcconfig in Resources */,
+				238945FE1BD9074500A5F8C6 /* Mac-Base.xcconfig in Resources */,
+				238945EC1BD9074500A5F8C6 /* Test.xcconfig in Resources */,
+				238946041BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig in Resources */,
+				238945EE1BD9074500A5F8C6 /* Application.xcconfig in Resources */,
+				238946001BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig in Resources */,
+				238945F81BD9074500A5F8C6 /* iOS-Framework.xcconfig in Resources */,
+				238945F41BD9074500A5F8C6 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +732,7 @@
 		};
 		232080A01B9B36C1006DABB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238945DB1BD9074500A5F8C6 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -600,6 +751,7 @@
 		};
 		232080A11B9B36C1006DABB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238945DB1BD9074500A5F8C6 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -618,6 +770,7 @@
 		};
 		232080A31B9B36C1006DABB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238945D31BD9074500A5F8C6 /* Test.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -635,6 +788,7 @@
 		};
 		232080A41B9B36C1006DABB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238945D31BD9074500A5F8C6 /* Test.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -648,6 +802,7 @@
 		};
 		232081121B9B5DC5006DABB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238945E11BD9074500A5F8C6 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -672,6 +827,7 @@
 		};
 		232081131B9B5DC5006DABB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238945E11BD9074500A5F8C6 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -691,6 +847,7 @@
 		};
 		232081141B9B5DC5006DABB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238945D31BD9074500A5F8C6 /* Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -712,6 +869,7 @@
 		};
 		232081151B9B5DC5006DABB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238945D31BD9074500A5F8C6 /* Test.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
