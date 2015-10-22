@@ -41,40 +41,6 @@
 		2320812C1B9B5EAB006DABB6 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 232080AF1B9B3772006DABB6 /* unzip.c */; };
 		2320812D1B9B5EAB006DABB6 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 232080B11B9B3772006DABB6 /* zip.c */; };
 		232081341B9B616A006DABB6 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 2320808E1B9B36C1006DABB6 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		238945E31BD9074500A5F8C6 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945CE1BD9074500A5F8C6 /* Common.xcconfig */; };
-		238945E41BD9074500A5F8C6 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945CE1BD9074500A5F8C6 /* Common.xcconfig */; };
-		238945E51BD9074500A5F8C6 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D01BD9074500A5F8C6 /* Debug.xcconfig */; };
-		238945E61BD9074500A5F8C6 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D01BD9074500A5F8C6 /* Debug.xcconfig */; };
-		238945E71BD9074500A5F8C6 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D11BD9074500A5F8C6 /* Profile.xcconfig */; };
-		238945E81BD9074500A5F8C6 /* Profile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D11BD9074500A5F8C6 /* Profile.xcconfig */; };
-		238945E91BD9074500A5F8C6 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D21BD9074500A5F8C6 /* Release.xcconfig */; };
-		238945EA1BD9074500A5F8C6 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D21BD9074500A5F8C6 /* Release.xcconfig */; };
-		238945EB1BD9074500A5F8C6 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D31BD9074500A5F8C6 /* Test.xcconfig */; };
-		238945EC1BD9074500A5F8C6 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D31BD9074500A5F8C6 /* Test.xcconfig */; };
-		238945ED1BD9074500A5F8C6 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D51BD9074500A5F8C6 /* Application.xcconfig */; };
-		238945EE1BD9074500A5F8C6 /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D51BD9074500A5F8C6 /* Application.xcconfig */; };
-		238945EF1BD9074500A5F8C6 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D61BD9074500A5F8C6 /* Framework.xcconfig */; };
-		238945F01BD9074500A5F8C6 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D61BD9074500A5F8C6 /* Framework.xcconfig */; };
-		238945F11BD9074500A5F8C6 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D71BD9074500A5F8C6 /* StaticLibrary.xcconfig */; };
-		238945F21BD9074500A5F8C6 /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D71BD9074500A5F8C6 /* StaticLibrary.xcconfig */; };
-		238945F31BD9074500A5F8C6 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D91BD9074500A5F8C6 /* iOS-Application.xcconfig */; };
-		238945F41BD9074500A5F8C6 /* iOS-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945D91BD9074500A5F8C6 /* iOS-Application.xcconfig */; };
-		238945F51BD9074500A5F8C6 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DA1BD9074500A5F8C6 /* iOS-Base.xcconfig */; };
-		238945F61BD9074500A5F8C6 /* iOS-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DA1BD9074500A5F8C6 /* iOS-Base.xcconfig */; };
-		238945F71BD9074500A5F8C6 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DB1BD9074500A5F8C6 /* iOS-Framework.xcconfig */; };
-		238945F81BD9074500A5F8C6 /* iOS-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DB1BD9074500A5F8C6 /* iOS-Framework.xcconfig */; };
-		238945F91BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DC1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig */; };
-		238945FA1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DC1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig */; };
-		238945FB1BD9074500A5F8C6 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DE1BD9074500A5F8C6 /* Mac-Application.xcconfig */; };
-		238945FC1BD9074500A5F8C6 /* Mac-Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DE1BD9074500A5F8C6 /* Mac-Application.xcconfig */; };
-		238945FD1BD9074500A5F8C6 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DF1BD9074500A5F8C6 /* Mac-Base.xcconfig */; };
-		238945FE1BD9074500A5F8C6 /* Mac-Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945DF1BD9074500A5F8C6 /* Mac-Base.xcconfig */; };
-		238945FF1BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E01BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig */; };
-		238946001BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E01BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig */; };
-		238946011BD9074500A5F8C6 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E11BD9074500A5F8C6 /* Mac-Framework.xcconfig */; };
-		238946021BD9074500A5F8C6 /* Mac-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E11BD9074500A5F8C6 /* Mac-Framework.xcconfig */; };
-		238946031BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E21BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig */; };
-		238946041BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 238945E21BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -481,7 +447,7 @@
 		232080801B9B36C1006DABB6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = BLITZ;
 				TargetAttributes = {
 					232080881B9B36C1006DABB6 = {
@@ -523,23 +489,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				238945E91BD9074500A5F8C6 /* Release.xcconfig in Resources */,
-				238946011BD9074500A5F8C6 /* Mac-Framework.xcconfig in Resources */,
-				238945E71BD9074500A5F8C6 /* Profile.xcconfig in Resources */,
-				238945F91BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig in Resources */,
-				238945F11BD9074500A5F8C6 /* StaticLibrary.xcconfig in Resources */,
-				238945F51BD9074500A5F8C6 /* iOS-Base.xcconfig in Resources */,
-				238945E51BD9074500A5F8C6 /* Debug.xcconfig in Resources */,
-				238945E31BD9074500A5F8C6 /* Common.xcconfig in Resources */,
-				238945EF1BD9074500A5F8C6 /* Framework.xcconfig in Resources */,
-				238945FB1BD9074500A5F8C6 /* Mac-Application.xcconfig in Resources */,
-				238945FD1BD9074500A5F8C6 /* Mac-Base.xcconfig in Resources */,
-				238945EB1BD9074500A5F8C6 /* Test.xcconfig in Resources */,
-				238946031BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig in Resources */,
-				238945ED1BD9074500A5F8C6 /* Application.xcconfig in Resources */,
-				238945FF1BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig in Resources */,
-				238945F71BD9074500A5F8C6 /* iOS-Framework.xcconfig in Resources */,
-				238945F31BD9074500A5F8C6 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,23 +503,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				238945EA1BD9074500A5F8C6 /* Release.xcconfig in Resources */,
-				238946021BD9074500A5F8C6 /* Mac-Framework.xcconfig in Resources */,
-				238945E81BD9074500A5F8C6 /* Profile.xcconfig in Resources */,
-				238945FA1BD9074500A5F8C6 /* iOS-StaticLibrary.xcconfig in Resources */,
-				238945F21BD9074500A5F8C6 /* StaticLibrary.xcconfig in Resources */,
-				238945F61BD9074500A5F8C6 /* iOS-Base.xcconfig in Resources */,
-				238945E61BD9074500A5F8C6 /* Debug.xcconfig in Resources */,
-				238945E41BD9074500A5F8C6 /* Common.xcconfig in Resources */,
-				238945F01BD9074500A5F8C6 /* Framework.xcconfig in Resources */,
-				238945FC1BD9074500A5F8C6 /* Mac-Application.xcconfig in Resources */,
-				238945FE1BD9074500A5F8C6 /* Mac-Base.xcconfig in Resources */,
-				238945EC1BD9074500A5F8C6 /* Test.xcconfig in Resources */,
-				238946041BD9074500A5F8C6 /* Mac-StaticLibrary.xcconfig in Resources */,
-				238945EE1BD9074500A5F8C6 /* Application.xcconfig in Resources */,
-				238946001BD9074500A5F8C6 /* Mac-DynamicLibrary.xcconfig in Resources */,
-				238945F81BD9074500A5F8C6 /* iOS-Framework.xcconfig in Resources */,
-				238945F41BD9074500A5F8C6 /* iOS-Application.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +594,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -743,6 +676,7 @@
 				INFOPLIST_FILE = ZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blitzagency.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipArchive;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -762,6 +696,7 @@
 				INFOPLIST_FILE = ZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blitzagency.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipArchive;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -782,6 +717,7 @@
 				);
 				INFOPLIST_FILE = ZipArchiveTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blitzagency.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipArchiveTests_iOS;
 			};
 			name = Debug;
@@ -796,6 +732,7 @@
 				);
 				INFOPLIST_FILE = ZipArchiveTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blitzagency.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipArchiveTests_iOS;
 			};
 			name = Release;
@@ -819,6 +756,7 @@
 				INFOPLIST_FILE = "ZipArchive Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blitzagency.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipArchive;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -839,6 +777,7 @@
 				INFOPLIST_FILE = "ZipArchive Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blitzagency.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ZipArchive;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -862,6 +801,7 @@
 				INFOPLIST_FILE = "ZipArchive MacTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blitzagency.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -879,6 +819,7 @@
 				INFOPLIST_FILE = "ZipArchive MacTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blitzagency.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};

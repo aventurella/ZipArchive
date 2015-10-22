@@ -26,6 +26,7 @@
     NSString *_path;
     NSString *_fileName;
     zipFile _zip;
+
 }
 
 #pragma mark - Unzipping
@@ -507,6 +508,16 @@
     }
 
     return success;
+}
+
+- (instancetype) init{
+    self = [self init];
+
+    if(!self){
+        return nil;
+    }
+
+    return self;
 }
 
 - (instancetype)initWithPath:(NSString *)path {
